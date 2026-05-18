@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.floatingactionbutton.FloatingActionButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fabAI"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:fabSize="normal"
+    app:backgroundTint="#4CAF50"
+    app:rippleColor="#80E8F5E9"
+    app:elevation="8dp"
+    app:pressedTranslationZ="16dp"
+    android:src="@drawable/ic_ai"
+    app:tint="#FFFFFF" />

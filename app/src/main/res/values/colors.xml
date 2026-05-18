@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="farmer_green">#2E7D32</color>
+    <color name="student_blue">#1976D2</color>
+    <color name="gray_text">#757575</color>
+    <color name="low_stock_yellow">#FFF3E0</color>
+    <color name="in_stock_green">#E8F5E9</color>
+    <color name="sold_out_red">#F44336</color>
+    <color name="status_active">#4CAF50</color>
+    <color name="status_completed">#A5D6A7</color>
+    <color name="status_inactive">#E0E0E0</color>
+    <color name="chip_all">#E8F5E9</color>
+    <color name="chip_active">#E8F5E9</color>
+    <color name="chip_low_stock">#FFF3E0</color>
+    <color name="chip_sold_out">#FFEBEE</color>
+
+</resources>
