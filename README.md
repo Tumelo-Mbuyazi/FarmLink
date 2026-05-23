@@ -1,96 +1,100 @@
-# 🚜 FARMLINK - Connecting Farmers & Agriculture Students
+<div align="center">
 
-![Platform](https://img.shields.io/badge/Platform-Android-brightgreen)
-![Language](https://img.shields.io/badge/Language-Java-orange)
-![Database](https://img.shields.io/badge/Database-Firebase-blue)
-![Status](https://img.shields.io/badge/Status-Development-yellow)
+# 🚜 FARMLINK  
+### Connecting Farmers & Agriculture Students
 
-## 📱 Overview
+<img src="https://img.shields.io/badge/Platform-Android-brightgreen?style=for-the-badge&logo=android" />
+<img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" />
+<img src="https://img.shields.io/badge/Database-Firebase-blue?style=for-the-badge&logo=firebase" />
+<img src="https://img.shields.io/badge/Status-Development-yellow?style=for-the-badge" />
 
-**FarmLink** is a dual-role Android application that bridges the gap between farmers and agriculture students. Farmers can sell their produce directly to students and create online courses, while students can shop for fresh farm products, enroll in agricultural courses, and earn certificates.
+<br/>
+<br/>
 
-### 🎯 Problem Statement
+> 🌱 Bridging the gap between farmers and agriculture students through technology.
 
-Farmers struggle to find direct buyers for their produce, losing 30-40% profit to middlemen. Agriculture students lack platforms to buy fresh produce and access practical farming education. FarmLink solves this by creating a direct connection.
+</div>
 
+---
 
+# 📱 Overview
 
-## 📱 Features
+**FarmLink** is a dual-role Android application that connects farmers directly with agriculture students.
 
-### 👨‍🌾 Farmer Features
-- Add products with images, price, and quantity
-- Edit or delete products anytime
+Farmers can:
+- Sell fresh produce
 - Manage customer orders
-- Update order status:
-  - Pending
-  - Processing
-  - Shipped
-  - Delivered
-- Respond to student questions
-- View simple sales statistics
+- Create learning content
 
-### 👨‍🎓 Student Features
-- Browse farm products from different farmers
-- Search and filter products
-- Add products to cart
-- Checkout and place orders
-- Track orders in real-time
-- Enroll in agriculture courses
-- Watch video lessons
-- Complete quizzes
-- Earn PDF certificates after course completion
-- Ask farmers questions
-- Request farm visits for practical learning
+Students can:
+- Buy farm products
+- Track orders
+- Learn agriculture online
+- Earn certificates
+
+The platform removes middlemen and creates a direct farming ecosystem.
+
+---
+
+# 🎯 Problem Statement
+
+Many farmers struggle to sell produce directly and lose profits to middlemen.
+
+At the same time, agriculture students often lack:
+- Access to affordable fresh produce
+- Practical farming knowledge
+- Direct interaction with experienced farmers
+
+FarmLink solves this problem by creating a single digital platform for both groups.
+
+---
+
+# ✨ Features
+
+<div align="center">
+
+| 👨‍🌾 Farmer Features | 👨‍🎓 Student Features |
+|---------------------|----------------------|
+| Add/Edit/Delete Products | Browse Marketplace |
+| Manage Orders | Add To Cart |
+| Upload Product Images | Checkout & Payments |
+| Track Deliveries | Track Orders |
+| Answer Questions | Watch Courses |
+| View Sales Stats | Earn Certificates |
+| Manage Inventory | Request Farm Visits |
+
+</div>
 
 ---
 
 # 🛠️ Tech Stack
 
+<div align="center">
+
 | Technology | Usage |
 |------------|------|
-| Java | Main programming language |
-| Android Studio | App development |
-| Firebase Authentication | Login & signup |
-| Firebase Firestore | NoSQL database |
-| Firebase Storage | Image & file storage |
-| Firebase Cloud Messaging | Notifications |
-| iTextPDF | PDF certificate generation |
-| XML + Material Design | User interface |
+| ☕ Java | Main programming language |
+| 📱 Android Studio | App development |
+| 🔥 Firebase Authentication | Login & signup |
+| 🗄️ Firebase Firestore | NoSQL database |
+| ☁️ Firebase Storage | Image & file storage |
+| 🔔 Firebase Cloud Messaging | Notifications |
+| 📄 iTextPDF | PDF generation |
+| 🎨 XML + Material Design | User Interface |
+
+</div>
 
 ---
 
 # 🏗️ Project Structure
 
+```text
 app/src/main/java/com/farmlink/
 │
 ├── activities/
 │   ├── auth/
-│   │   ├── LoginActivity.java
-│   │   ├── SignupActivity.java
-│   │   └── ForgotPasswordActivity.java
-│   │
 │   ├── farmer/
-│   │   ├── FarmerDashboardActivity.java
-│   │   ├── FarmerProductsActivity.java
-│   │   ├── AddProductActivity.java
-│   │   ├── EditProductActivity.java
-│   │   ├── FarmerOrdersActivity.java
-│   │   └── FarmerProfileActivity.java
-│   │
 │   └── student/
-│       ├── StudentDashboardActivity.java
-│       ├── StudentMarketplaceActivity.java
-│       ├── ProductDetailActivity.java
-│       ├── CartActivity.java
-│       ├── CheckoutActivity.java
-│       ├── MyOrdersActivity.java
-│       ├── OrderTrackingActivity.java
-│       ├── StudentLearningActivity.java
-│       ├── CourseDetailActivity.java
-│       ├── StudentConnectActivity.java
-│       ├── AskFarmerActivity.java
-│       ├── RequestFarmVisitActivity.java
-│       └── StudentProfileActivity.java
 │
 ├── adapters/
 │   ├── CartAdapter.java
@@ -102,7 +106,6 @@ app/src/main/java/com/farmlink/
 │   ├── Product.java
 │   ├── Order.java
 │   ├── Cart.java
-│   ├── CartItem.java
 │   ├── Course.java
 │   └── Certificate.java
 │
@@ -173,17 +176,21 @@ courses/{courseId}
 
 # ▶️ How To Run The Project
 
-## 1. Clone the repository
+## 1️⃣ Clone The Repository
 
 ```bash
 git clone https://github.com/yourusername/farmlink.git
 ```
 
-## 2. Open in Android Studio
+---
+
+## 2️⃣ Open In Android Studio
 
 Open the project folder in Android Studio.
 
-## 3. Setup Firebase
+---
+
+## 3️⃣ Setup Firebase
 
 Create a Firebase project and:
 
@@ -193,67 +200,83 @@ Create a Firebase project and:
 - Download `google-services.json`
 - Place it inside the `app/` folder
 
-## 4. Run the app
+---
 
-Use:
-- Android Emulator  
+## 4️⃣ Run The App
+
+Run using:
+- 📱 Android Emulator
 or
-- Physical Android device
+- 📲 Physical Android Device
 
 ---
 
 # 📚 What I Learned
 
-Building this project taught me a lot about Android development and Firebase.
+Building this project taught me a lot about:
 
-Some important things I learned:
+- Firebase architecture
+- Android activity lifecycle
+- RecyclerViews & adapters
+- Real-time database syncing
+- State management
+- PDF generation
+- Scalable app structure
 
-- Firebase becomes slow without proper indexing
-- Pagination is necessary for large datasets
-- Managing cart data across activities is challenging
-- Planning the database structure early saves time later
-- PDF generation takes more work than expected
-
-I also learned how to structure a bigger Android project with multiple activities, adapters, models, and Firebase integration.
+I also learned the importance of:
+- Database indexing
+- Pagination
+- Proper project planning
 
 ---
 
 # 🚧 Future Improvements
 
-Features I would like to add later:
-
-- Online payments
-- Live course streaming
-- AI-based crop price suggestions
-- WhatsApp notifications
-- Multi-language support
-- Dark mode
-- Better analytics for farmers
+- 💳 Online payments
+- 🎥 Live course streaming
+- 🤖 AI-based crop price suggestions
+- 📲 WhatsApp notifications
+- 🌍 Multi-language support
+- 🌙 Dark mode
+- 📊 Better analytics dashboard
 
 ---
 
 # 📸 Screenshots
 
-Screenshots will be added soon.
+<div align="center">
+
+🚧 Screenshots coming soon...
+
+</div>
 
 ---
 
 # 👨‍💻 Developer
 
-Built as a student project for learning purposes.
+<div align="center">
 
-**Name:** Tumelo Mbuyazi
-**Course:** Diploma in ICT    
-**Email:** tumelombuyazi96@gmail.com
+## Tumelo Mbuyazi
 
----
+🎓 Diploma in ICT Student  
+📧 tumelombuyazi96@gmail.com
 
-# ⚠️ Note
-
-This is a student project and not production-ready yet. Some parts of the code can still be improved, but the project was built to practice Android development, Firebase integration, and real-world problem solving.
-
-If you find the project useful, feel free to fork it or give it a ⭐ on GitHub.
+</div>
 
 ---
 
-## ☕ Built with coffee, debugging, and late-night coding sessions.
+# ⚠️ Disclaimer
+
+This is a student project created for learning purposes.
+
+The application is still under development and not production-ready yet.
+
+---
+
+<div align="center">
+
+# ☕ Built with coffee, debugging, and late-night coding sessions.
+
+⭐ If you like the project, consider giving it a star on GitHub!
+
+</div>
